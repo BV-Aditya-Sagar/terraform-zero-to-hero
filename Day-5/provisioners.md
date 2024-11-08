@@ -1,3 +1,5 @@
+Terraform provisioners are a mechanism that allow you to execute scripts or commands on a resource once it has been created or modified. Provisioners help to perform tasks that are not part of the actual infrastructure configuration, such as installing software, configuring settings, or running shell commands on an instance after it is created.
+
 Certainly, let's delve deeper into the `file`, `remote-exec`, and `local-exec` provisioners in Terraform, along with examples for each.
 
 1. **file Provisioner:**
